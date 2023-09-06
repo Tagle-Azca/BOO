@@ -1,0 +1,38 @@
+/* Estilos base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    }
+    
+    /* Estilos para el contenido principal */
+    .container {
+        width: 100%;
+        max-width: 1200px; /* Cambia este valor según tus necesidades */
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    /* Estilos para imágenes que se ajustan al ancho del contenedor */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Media queries para ajustar el diseño según el tamaño de la pantalla */
+    /* Pantallas grandes */
+    @media (min-width: 1200px) {
+        /* Estilos adicionales para el contenido principal en pantallas grandes */
+    }
+    
+    /* Pantallas medianas */
+    @media (max-width: 1199px) {
+        /* Estilos adicionales para el contenido principal en pantallas medianas */
+    }
+    
+    /* Pantallas pequeñas (tablets y móviles) */
+    @media (max-width: 767px) {
+        /* Estilos adicionales para el contenido principal en pantallas pequeñas */
+    }
+    
