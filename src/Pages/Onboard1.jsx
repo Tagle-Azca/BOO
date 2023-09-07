@@ -1,11 +1,14 @@
 import React from "react";
 import Maps from "../IMG/1map.png";
 import Boton from '../Components/ReusableButton';
+import '../CSS/Wallpaper.css';
 
 function App() {
     const imgStyle = {
-        width: "100vw",
+        width: "26rem",
         height: "auto",
+        marginTop:'10rem',
+        color:'white'
     };
 
     return (
@@ -14,12 +17,11 @@ function App() {
                 <div className="foto" style={{ background: "fixed"}}>
                     <img src={Maps} alt="Mi Imagen" style={imgStyle} />
                 </div>
-                <div style={{marginTop:'-20rem'}}>
+                <div style={{marginTop:'-35rem', marginLeft:'5rem', }}>
                     <h1>The Best Place</h1>
                     <h1>to learn coding</h1>
                 </div>
-                    <div style={{display:'flex', margin:'10rem', gap: '5rem'}}>   
-                        
+                    <div style={{display:'flex', marginLeft:'5rem',marginTop:'27rem', gap: '5rem'}}>   
                             <Boton
                                 text="Skip"
                                 variant="contained"
@@ -35,7 +37,6 @@ function App() {
                                 textColor="Black"
 
                             />
-                        
                     </div>
             </header>
         </div>
