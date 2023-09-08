@@ -1,30 +1,41 @@
 import React from "react";
 import TextField from '../Components/TextField'
 import ResponsiveContainer from "../Components/ResponsiveContainer";
+import '../CSS/Wallpaper.css';
+import Checkbox from '../Components/Checkbox';
 
 function App() {
     return (
         <div className="App">
         <header className="App-header">
-        <div className="tiutulo" style={{display:'grid', height:'20rem',fontSize:'2rem', fontFamily:'inter' }}>
-            <h1 className="Title" >
-                    <p className="Title">
-                        <strong>Sign UP!</strong>
-                    </p>
-            </h1>
-        </div>
-        <div className="container">
-            <ResponsiveContainer>
-                
-                <TextField
-                    id="myTextField"
-                    label="Mail"   
-                />
-                <TextField
-                    id="myTextField"
-                    label="Password"
-                />    
+                <div className="container" style={{marginLeft:'1rem',marginTop:'4rem'}}>
+                    <ResponsiveContainer>
+                    <div className="tiutulo" style={{display:'grid',justifyContent:'center', height:'20rem',fontSize:'1.5rem', fontFamily:'inter', }}>
+                        <h1 className="Title" >
+                                <p className="Title" style={{display:'grid', justifyContent:'center'}}>
+                                    <strong>Hello</strong>
+                                </p>
+                                <p>
+                                <strong>Sign UP!</strong>
+                                </p>
+                        </h1>
+                    </div>
+                <div className="signUp" style={{display:'grid', justifyContent:'center', marginBottom:'2rem'}}>
+                    <TextField
+                        id="myTextField"
+                        label="Mail"
+                    />
+                    <TextField
+                        id="myTextField"
+                        label="Password"
+                    />
+                </div>
+                <div className="Check" style={{display:'flex',color:'white'}}>
+                    <Checkbox/>
+                    <p>I accept the policy and terms</p>
+                </div>
             </ResponsiveContainer>
+
             
         </div>
             

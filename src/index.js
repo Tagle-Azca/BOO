@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 //import Onboard1 from './Pages/Onboard1';//
-import Onboard2 from './Pages/Onboard2';
-//import Login from './Pages/Login';//
+//import Onboard2 from './Pages/Onboard2';
+import Login from './Pages/Login';//
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Onboard2 />
+    <Login />
   </React.StrictMode>
 );
 

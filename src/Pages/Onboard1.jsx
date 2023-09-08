@@ -2,7 +2,6 @@ import React from "react";
 import Maps from "../IMG/1map.png";
 import Boton from '../Components/ReusableButton';
 import '../CSS/Wallpaper.css';
-
 function App() {
     const imgStyle = {
         width: "26rem",

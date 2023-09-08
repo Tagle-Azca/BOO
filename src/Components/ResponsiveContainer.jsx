@@ -5,8 +5,8 @@ const ResponsiveContainer = ({ children }) => {
     return (
         <Box
         sx={{
-            maxWidth: '100%',
-            padding: '16px', // Espaciado interno
+            maxWidth: '90%',
+            padding: '8px', // Espaciado interno
             margin: '0 auto', // Centrar horizontalmente
             boxSizing: 'border-box',
             background: 'rgba(0, 0, 0, 0.1)', // Fondo con 20%
