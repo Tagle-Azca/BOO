@@ -1,47 +1,51 @@
 import React from "react";
 import TextField from '../Components/TextField'
-import ResponsiveContainer from "../Components/ResponsiveContainer";
-import '../CSS/Wallpaper.css';
-import Checkbox from '../Components/Checkbox';
+import '../CSS/Wallpaper.css'
+import Checkbox from '../Components/Checkbox'
+import Button from '../Components/Button';
 
-function App() {
+
+function Login() {
+    const handleButtonClick = () => {
+        console.log('boton click')
+    };
+
     return (
-        <div className="App">
-        <header className="App-header">
-                <div className="container" style={{marginLeft:'1rem',marginTop:'4rem'}}>
-                    <ResponsiveContainer>
-                    <div className="tiutulo" style={{display:'grid',justifyContent:'center', height:'20rem',fontSize:'1.5rem', fontFamily:'inter', }}>
-                        <h1 className="Title" >
-                                <p className="Title" style={{display:'grid', justifyContent:'center'}}>
-                                    <strong>Hello</strong>
-                                </p>
-                                <p>
-                                <strong>Sign UP!</strong>
-                                </p>
-                        </h1>
+        <div className="Login">
+            <header className="Login-header">
+                <div className="Foto" style={{ background: 'fixed' }}>
+                    <div className="W" style={{ fontFamily: 'inter', display: 'flex', justifyContent: 'center', marginTop: '7rem', fontSize: '1.5rem', color:'white' }}>
+                        <strong>
+                            <h1>Wellcome!</h1>
+                        </strong>
                     </div>
-                <div className="signUp" style={{display:'grid', justifyContent:'center', marginBottom:'2rem'}}>
+                    <div className="signUp" style={{display:'grid', justifyContent:'center'}}>
                     <TextField
                         id="myTextField"
-                        label="Mail"
+                        label="Example@example.com"
                     />
                     <TextField
                         id="myTextField"
                         label="Password"
                     />
+                    </div>
+                    <div className="Box_letras" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', color: 'white', marginTop: '-2rem', marginLeft:'-1rem' }}>
+                        <div style={{ marginRight: '5rem' }}>
+                            <Checkbox />
+                        </div>
+                        <div style={{ display: 'flex', alignItems: 'center', marginLeft:'-5rem' }}>
+                            <h5>Remember me</h5>
+                            <h5 style={{ marginLeft: '4rem' }}>Forgot Password?</h5>
+                        </div>
+                    </div>
+                    <div className="button" style={{ display: 'grid', justifyContent: 'center', color:'#fff'}}>
+                        <Button onClick={handleButtonClick}/>
+                    </div>
                 </div>
-                <div className="Check" style={{display:'flex',color:'white'}}>
-                    <Checkbox/>
-                    <p>I accept the policy and terms</p>
-                </div>
-            </ResponsiveContainer>
-
-            
+                
+            </header>
         </div>
-            
-        </header>
-        </div>
-    );
+    )
 }
 
-export default App;
+export default Login;

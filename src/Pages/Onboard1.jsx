@@ -2,7 +2,7 @@ import React from "react";
 import Maps from "../IMG/1map.png";
 import Boton from '../Components/ReusableButton';
 import '../CSS/Wallpaper.css';
-function App() {
+function Onboard1() {
     const imgStyle = {
         width: "26rem",
         height: "auto",
@@ -42,4 +42,4 @@ function App() {
     );
 }
 
-export default App;
+export default Onboard1;

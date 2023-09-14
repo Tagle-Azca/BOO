@@ -1,6 +1,6 @@
 /* En tu archivo CSS (Wallpaper.css) */
 body {
-    background-image: url('../IMG/Wall.jpeg'); /* Ruta relativa a la ubicación del archivo CSS */
+    background-image: url('../IMG/BNW.jpeg'); /* Ruta relativa a la ubicación del archivo CSS */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

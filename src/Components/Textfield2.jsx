@@ -2,7 +2,6 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 
-
 export default function ReusableTextField({
     id,
     label,
@@ -13,7 +12,7 @@ export default function ReusableTextField({
     }) {
     const textFieldStyle = {
         borderRadius: borderRadius || '10px',
-        backgroundColor: backgroundColor ||  'rgba(255, 255, 255, 0.7)',
+        backgroundColor: backgroundColor ||  'rgba(255, 255, 255, 0.4)',
         color: textColor || 'black',
         fontFamily: 'inter'
     };
@@ -22,7 +21,7 @@ export default function ReusableTextField({
         <Box
         component="form"
         sx={{
-            '& > :not(style)': { m: 3, fontFamily: 'inter', width:'20rem'},
+            '& > :not(style)': { m: 1, fontFamily: 'inter', width:'20rem'},
         }}
         noValidate
         autoComplete="off"
