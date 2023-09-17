@@ -40,7 +40,14 @@ function Login() {
                         </div>
                     </div>
                     <div className="button" style={{ display: 'grid', justifyContent: 'center', color:'#fff'}}>
-                        <Button onClick={handleButtonClick}/>
+                        <Button 
+                        style={{width:'10rem'}}
+                        text="Sign In"
+                        backgroundColor="#fff"
+                        fontFamily="Inter"
+                        color="black"
+                        borderRadius="20px"
+                        onClick={handleButtonClick}/>
                     </div>
                     <div className="or" style={{display:'grid', justifyContent:'center'}}>
                         <h6>---------------------------or---------------------------</h6>
