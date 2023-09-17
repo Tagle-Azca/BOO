@@ -3,6 +3,7 @@ import TextField from '../Components/TextField'
 import '../CSS/Wallpaper.css'
 import Checkbox from '../Components/Checkbox'
 import Button from '../Components/Button';
+import Apple from '../Components/Apple';
 
 
 function Login() {
@@ -14,7 +15,7 @@ function Login() {
         <div className="Login">
             <header className="Login-header">
                 <div className="Foto" style={{ background: 'fixed' }}>
-                    <div className="W" style={{ fontFamily: 'inter', display: 'flex', justifyContent: 'center', marginTop: '7rem', fontSize: '1.5rem', color:'white' }}>
+                    <div className="W" style={{ fontFamily: 'inter', display: 'flex', justifyContent: 'center', marginTop: '2rem', fontSize: '1.5rem', color:'white' }}>
                         <strong>
                             <h1>Wellcome!</h1>
                         </strong>
@@ -41,6 +42,16 @@ function Login() {
                     <div className="button" style={{ display: 'grid', justifyContent: 'center', color:'#fff'}}>
                         <Button onClick={handleButtonClick}/>
                     </div>
+                    <div className="or" style={{display:'grid', justifyContent:'center'}}>
+                        <h6>---------------------------or---------------------------</h6>
+                    </div>
+                    <div className="apple" style={{marginTop:'1rem'}}>
+                        <Apple/>
+                    </div>
+                    <div className="register" style={{display:'grid', justifyContent:'center', color:'#0008'}}>
+                        <h6>New here? Register!</h6>
+                    </div>
+
                 </div>
                 
             </header>

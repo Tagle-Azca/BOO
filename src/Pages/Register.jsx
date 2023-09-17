@@ -12,7 +12,7 @@ function App() {
         <header className="App-header">
                 <div className="container" style={{marginLeft:'1rem',marginTop:'4rem'}}>
                     <ResponsiveContainer>
-                    <div className="tiutulo" style={{display:'grid',justifyContent:'center', height:'20rem',fontSize:'1.5rem', fontFamily:'inter',color:'white' }}>
+                    <div className="tiutulo" style={{display:'grid',justifyContent:'center', height:'20rem',fontSize:'1.5rem', fontFamily:'inter',color:'white', marginTop:'-2rem'}}>
                         <h1 className="Title" >
                                 <p className="Title" style={{display:'grid', justifyContent:'center'}}>
                                     <strong>Hello</strong>
@@ -23,8 +23,8 @@ function App() {
                         </h1>
                     </div>
                 
-            </ResponsiveContainer>
-            <div className="signUp" style={{display:'grid', justifyContent:'center', marginBottom:'1rem', marginTop:'-4rem'}}>
+            
+            <div className="signUp" style={{display:'grid', justifyContent:'center', marginBottom:'1rem', marginTop:'-6rem'}}>
                     <TextField
                         id="myTextField"
                         label="Mail"
@@ -34,11 +34,12 @@ function App() {
                         label="Password"
                     />
                 </div>
-                <div className="Check" style={{display:'flex',color:'white', marginTop:'1rem'}}>
+                <div className="Check" style={{display:'flex',color:'white', marginTop:'1rem', justifyContent:'center', marginLeft:'-5rem'}}>
                     <Checkbox/>
                     <p>I accept the policy and terms</p>
                 </div>
 
+                </ResponsiveContainer>
                 
             </div>
             
