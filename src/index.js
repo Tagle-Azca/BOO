@@ -6,13 +6,13 @@ import reportWebVitals from './reportWebVitals';
 //import Onboard2 from './Pages/Onboard2';
 //import Register from './Pages/Register';//
 import Login from './Pages/Login';
-import Register2 from './Pages/Register2';
-
+//import Register2 from './Pages/Register2';
+import Levels from './Pages/Levels';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Register2/>
+    <Levels/>
   </React.StrictMode>
 );
 

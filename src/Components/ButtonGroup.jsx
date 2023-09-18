@@ -7,12 +7,12 @@ import Stack from '@mui/material/Stack';
 export default function IconLabelButtons() {
     return (
         
-        <Stack direction="row" spacing={14}>
+        <Stack direction="row" spacing={10}>
             <Button variant="outlined" startIcon={<ArrowBackIcon />}>
                 Back
             </Button>
-            <Button variant="contained" endIcon={<ArrowForwardIcon />} style={{backgroundColor:'#5b8e9d'}}>
-                Next
+            <Button variant="contained" endIcon={<ArrowForwardIcon />} style={{width:'8rem',backgroundColor:'#5b8e9d'}}>
+                Sign up
             </Button>
         </Stack>
     );
