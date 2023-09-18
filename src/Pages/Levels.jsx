@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import '../CSS/Wallpaper.css';
 import Button from '../Components/Button';
+import ResponsiveContainer from "../Components/ResponsiveContainer";
 
 export default function Levels(){
 
@@ -34,12 +35,14 @@ export default function Levels(){
 
     return (
         <div className="Principal">
+            
             <div className="Levels-principal">
                 <div className="Titutlo" style={{ display: 'grid', justifyContent: 'center', color: '#fff', marginTop: '4rem' }}>
                     <h1 style={{ marginLeft: '3.2rem' }}>What is your </h1>
                     <h1 style={{ marginTop: '-1rem' }}>Programming level?</h1>
                 </div>
-                <div className="Botones" style={{ display: 'grid', justifyContent: 'center', gap: '2rem', marginTop: '4rem' }}>
+                <ResponsiveContainer>
+                <div className="Botones" style={{ display: 'grid', justifyContent: 'center', gap: '2rem', marginTop: '2rem' }}>
                     {buttonData.map((data, index) => (
                         <div key={index}>
                             <Button
@@ -54,22 +57,24 @@ export default function Levels(){
                         </div>
                     ))}
                 </div>
-                <div className="Botones" style={{ display: 'flex', justifyContent: 'center', gap: '3rem', marginTop: '2rem' }}>
+                <div className="Botones2" style={{display: 'flex', justifyContent: 'center', gap: '3rem', marginTop: '5rem' }}>
                     {ButtonData2.map((data2, index2) => (
                         <div key={index2}>
                             <Button
                                 text={data2.text}
-                                width="6rem"
+                                width="9rem"
                                 backgroundColor={data2.text === "Next" ? "#006B6B" : "rgba(255,255,255,.4)"}
                                 fontFamily="iners Sans"
                                 color={data2.text === "Next" ? "white" : "black"}
-                                borderRadius="10px"
+                                borderRadius="20px"
                                 onClick={() => handleNavigationClick(data2.text)}
                             />
                         </div>
                     ))}
                 </div>
+                </ResponsiveContainer>
             </div>
+            
         </div>
     );
 }
