@@ -32,7 +32,7 @@ export default function DateOfBirthSelect() {
             <FormControl fullWidth>
                 <InputLabel id="day-select-label">Day</InputLabel>
                 <Select
-                    style={{backgroundColor:'rgba(255, 255, 255, 0.7)'}}
+                    style={{backgroundColor:'rgba(255, 255, 255, 0.4)', borderRadius:'10px'}}
                     labelId="day"
                     id="day-select"
                     value={day}
@@ -50,7 +50,7 @@ export default function DateOfBirthSelect() {
             <FormControl fullWidth>
                 <InputLabel id="month-select-label">Month</InputLabel>
                 <Select
-                    style={{backgroundColor:'rgba(255, 255, 255, 0.7)'}}
+                    style={{backgroundColor:'rgba(255, 255, 255, 0.4)', borderRadius:'10px'}}
                     labelId="month"
                     id="month-select"
                     value={month}
@@ -68,7 +68,7 @@ export default function DateOfBirthSelect() {
             <FormControl fullWidth>
                 <InputLabel id="year-select-label">Year</InputLabel>
                 <Select
-                    style={{backgroundColor:'rgba(255, 255, 255, 0.7)'}}
+                    style={{backgroundColor:'rgba(255, 255, 255, 0.4)', borderRadius:'10px'}}
                     labelId="year-select-label"
                     id="year-select"
                     value={year}

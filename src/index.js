@@ -12,7 +12,7 @@ import Register2 from './Pages/Register2';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Login/>
+    <Register2/>
   </React.StrictMode>
 );
 

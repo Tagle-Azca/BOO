@@ -3,7 +3,7 @@ import TextField from '../Components/TextField'
 import ResponsiveContainer from "../Components/ResponsiveContainer";
 import '../CSS/Wallpaper.css';
 import Selecter from '../Components/Slecter';
-import Button from '../Components/Button';
+import Group from '../Components/ButtonGroup';
 
 
 function App() {
@@ -41,9 +41,8 @@ function App() {
                 
                     <Selecter/>
                 </div>
-                <div className="button" style={{ display: 'grid', justifyContent: 'center', color:'#fff'}}>
-                        <Button onClick={handleButtonClick}
-                        id="Back"/>
+                <div className="button" style={{marginTop:'2rem', display: 'grid', justifyContent: 'center', color:'#fff', marginBottom:'1rem'}}>
+                        <Group/>
                 </div>
                 </ResponsiveContainer>
                 

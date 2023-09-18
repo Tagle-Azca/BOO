@@ -39,9 +39,9 @@ function Login() {
                             <h5 style={{ marginLeft: '4rem' }}>Forgot Password?</h5>
                         </div>
                     </div>
-                    <div className="button" style={{ display: 'grid', justifyContent: 'center', color:'#fff'}}>
+                    <div className="button" style={{ display: 'flex', justifyContent: 'center', color:'#fff', }}>
                         <Button 
-                        style={{width:'10rem'}}
+                        style={{width:'20rem'}}
                         text="Sign In"
                         backgroundColor="#fff"
                         fontFamily="Inter"
