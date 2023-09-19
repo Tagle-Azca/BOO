@@ -3,7 +3,7 @@ import TextField from '../Components/TextField'
 import '../CSS/Wallpaper.css'
 import Checkbox from '../Components/Checkbox'
 import Button from '../Components/Button';
-import Apple from '../Components/Apple';
+import DifLogin from '../Components/DIfLogin';
 
 
 function Login() {
@@ -53,7 +53,7 @@ function Login() {
                         <h6>---------------------------or---------------------------</h6>
                     </div>
                     <div className="apple" style={{marginTop:'1rem'}}>
-                        <Apple/>
+                        <DifLogin/>
                     </div>
                     <div className="register" style={{display:'grid', justifyContent:'center', color:'#0008'}}>
                         <h6>New here? Register!</h6>

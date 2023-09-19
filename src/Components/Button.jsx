@@ -4,10 +4,11 @@ import Button from '@mui/material/Button';
 export default function CustomButton({ text, width, backgroundColor, fontFamily, color, borderRadius, onClick }) {
     const buttonStyle = {
         width: width || '20rem',
-        backgroundColor: backgroundColor || '#fff', // Color de fondo personalizable, predeterminado a '#fff'
-        fontFamily: fontFamily || 'inherit', // Fuente personalizable, predeterminada a 'inherit'
-        color: color || 'black', // Color de texto personalizable, predeterminado a 'black'
-        borderRadius: borderRadius || '4px', // Radio de borde personalizable, predeterminado a '4px'
+        height: '3rem', // Agregamos una altura fija
+        backgroundColor: backgroundColor || '#fff',
+        fontFamily: fontFamily || 'inherit',
+        color: color || 'black',
+        borderRadius: borderRadius || '4px',
     };
 
     return (

@@ -16,7 +16,7 @@ function Onboard1() {
                 <div className="foto" style={{ background: "fixed"}}>
                     <img src={Maps} alt="Mi Imagen" style={imgStyle} />
                 </div>
-                <div style={{marginTop:'-35rem', marginLeft:'5rem', }}>
+                <div style={{marginTop:'-37rem',fontFamily:'iner',display:'grid',justifyContent:'center', color:'#fff'}}>
                     <h1>The Best Place</h1>
                     <h1>to learn coding</h1>
                 </div>
