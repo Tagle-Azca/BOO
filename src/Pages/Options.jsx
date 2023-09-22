@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Components/ButtonOptions";
+import ButtonOptions from "../Components/ButtonOptions";
 import "../CSS/Wallpaper.css";
 import Python from "../IMG/Python.png";
 import JS from "../IMG/Javascript-logo.png";
@@ -7,14 +7,14 @@ import Cmas from "../IMG/C++.png";
 import Mysql from "../IMG/Mysql.png";
 import Java from "../IMG/Java.png";
 import Github from "../IMG/github-mark.png";
+import ButtonOP from "../Components/ButtonOp";
 
 function Options() {
-  const imageSize = "50px"; // Personaliza el tamaño de la imagen
-
+  const imageSize = "50px";
   const buttonStyle = {
     width: imageSize,
     height: imageSize,
-    overflow: "hidden", // Para recortar cualquier contenido que se desborde
+    overflow: "hidden",
   };
   return (
     <div className="Options">
@@ -22,27 +22,37 @@ function Options() {
         <div className="Title">
           <div
             style={{
-              marginTop: "2rem",
+              marginTop: ".7rem",
               justifyContent: "center",
               display: "grid",
               color: "white",
             }}
           >
             <h1>Choose a lenguaje</h1>
-            <h1 style={{ marginLeft: "2rem", marginTop: "-1rem" }}>
+            <h1
+              style={{
+                marginTop: "-.9rem",
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               to start with
             </h1>
           </div>
           <div
             className="Selects"
-            style={{ display: "flex", justifyContent: "center" }}
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              marginTop: "-1rem",
+            }}
           >
             <div style={{ display: "flex", flexDirection: "column" }}>
               <div>
-                <Button
+                <ButtonOptions
                   text="Texto del Botón"
                   backgroundColor="white"
-                  style={buttonStyle} // Aplica el estilo al botón
+                  style={buttonStyle}
                   icon={
                     <img
                       src={Python}
@@ -50,11 +60,11 @@ function Options() {
                       style={{ width: "100%", height: "auto" }}
                     />
                   }
-                ></Button>
-                <Button
+                ></ButtonOptions>
+                <ButtonOptions
                   text="Texto del Botón"
                   backgroundColor="white"
-                  style={buttonStyle} // Aplica el estilo al botón
+                  style={buttonStyle}
                   icon={
                     <img
                       src={JS}
@@ -62,13 +72,13 @@ function Options() {
                       style={{ width: "80%", height: "auto" }}
                     />
                   }
-                ></Button>
+                ></ButtonOptions>
               </div>
               <div style={{ display: "flex" }}>
-                <Button
+                <ButtonOptions
                   text="Texto del Botón"
                   backgroundColor="white"
-                  style={buttonStyle} // Aplica el estilo al botón
+                  style={buttonStyle}
                   icon={
                     <img
                       src={Cmas}
@@ -76,11 +86,12 @@ function Options() {
                       style={{ width: "100%", height: "auto" }}
                     />
                   }
-                ></Button>
-                <Button
+                ></ButtonOptions>
+                <ButtonOptions
+                  ButtonOptions="Texto del Botón"
                   text="Texto del Botón"
                   backgroundColor="white"
-                  style={buttonStyle} // Aplica el estilo al botón
+                  style={buttonStyle}
                   icon={
                     <img
                       src={Mysql}
@@ -88,13 +99,13 @@ function Options() {
                       style={{ width: "100%", height: "auto" }}
                     />
                   }
-                ></Button>
+                ></ButtonOptions>
               </div>
               <div style={{ display: "flex" }}>
-                <Button
+                <ButtonOptions
                   text="Texto del Botón"
                   backgroundColor="white"
-                  style={buttonStyle} // Aplica el estilo al botón
+                  style={buttonStyle}
                   icon={
                     <img
                       src={Java}
@@ -102,11 +113,11 @@ function Options() {
                       style={{ width: "100%", height: "auto" }}
                     />
                   }
-                ></Button>
-                <Button
+                ></ButtonOptions>
+                <ButtonOptions
                   text="Texto del Botón"
                   backgroundColor="white"
-                  style={buttonStyle} // Aplica el estilo al botón
+                  style={buttonStyle}
                   icon={
                     <img
                       src={Github}
@@ -114,7 +125,10 @@ function Options() {
                       style={{ width: "100%", height: "auto" }}
                     />
                   }
-                ></Button>
+                ></ButtonOptions>
+              </div>
+              <div className="Group" style={{ marginTop: "2rem" }}>
+                <ButtonOP />
               </div>
             </div>
           </div>
