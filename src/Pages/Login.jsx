@@ -77,10 +77,34 @@ function Login() {
           </div>
           <div
             className="or"
-            style={{ display: "grid", justifyContent: "center" }}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              color: "#fff",
+              marginTop: "1rem",
+              width: "100%", // Ajusta el ancho total del elemento
+              margin: "0 auto", // Centra el elemento horizontalmente
+            }}
           >
-            <h6>---------------------------or---------------------------</h6>
+            <div
+              style={{
+                flex: "20", // Comienza en el 20% de la página (izquierda)
+                height: "1px",
+                background:
+                  "linear-gradient(to right, transparent 20%, #fff 50%, #fff 100%, transparent 80%)", // Gradiente igual en ambos lados
+              }}
+            ></div>
+            <h6 style={{ margin: "0 1rem" }}>or</h6>
+            <div
+              style={{
+                flex: "20", // Termina en el 80% de la página (derecha)
+                height: "1px",
+                background:
+                  "linear-gradient(to left, transparent 20%, #fff 50%, #fff 100%, transparent 80%)", // Gradiente igual en ambos lados
+              }}
+            ></div>
           </div>
+
           <div className="apple" style={{ marginTop: "1rem" }}>
             <DifLogin />
           </div>
