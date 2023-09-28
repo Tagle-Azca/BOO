@@ -19,22 +19,22 @@ function App() {
         </div>
         <div
           style={{
-            marginTop: "-33rem",
+            marginTop: "-34rem",
             marginLeft: "5rem",
             display: "grid",
             color: "white",
           }}
         >
           <h1>Let's make you</h1>
-          <h1 style={{ marginLeft: "2rem", marginTop: "-1rem" }}>
+          <h1 style={{ marginLeft: "-2rem", marginTop: "-1rem" }}>
             The best programer
           </h1>
         </div>
         <div
           style={{
             display: "flex",
-            marginLeft: "5rem",
-            marginTop: "23rem",
+            justifyContent: "center",
+            marginTop: "27rem",
             gap: "5rem",
           }}
         >
@@ -48,8 +48,8 @@ function App() {
           <Boton
             text="Start"
             variant="contained"
-            backgroundColor="white"
-            textColor="Black"
+            backgroundColor="#004B6B"
+            textColor="white"
           />
         </div>
       </header>

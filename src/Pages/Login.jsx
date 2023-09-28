@@ -15,7 +15,7 @@ function Login() {
       <header className="Login-header">
         <div className="Foto" style={{ background: "fixed" }}>
           <div
-            className="Wellcome"
+            className="Welcome"
             style={{
               fontFamily: "inter",
               display: "flex",
@@ -26,7 +26,7 @@ function Login() {
             }}
           >
             <strong>
-              <h1>Wellcome!</h1>
+              <h1>Welcome!</h1>
             </strong>
           </div>
           <div
@@ -81,9 +81,9 @@ function Login() {
               display: "flex",
               alignItems: "center",
               color: "#fff",
-              marginTop: "1rem",
-              width: "100%", // Ajusta el ancho total del elemento
-              margin: "0 auto", // Centra el elemento horizontalmente
+              marginTop: "1.4rem",
+              width: "100%",
+              margin: "0 auto",
             }}
           >
             <div
@@ -91,7 +91,7 @@ function Login() {
                 flex: "20", // Comienza en el 20% de la página (izquierda)
                 height: "1px",
                 background:
-                  "linear-gradient(to right, transparent 20%, #fff 50%, #fff 100%, transparent 80%)", // Gradiente igual en ambos lados
+                  "linear-gradient(to right, transparent 20%, #fff 50%, #fff 100%, transparent 80%)",
               }}
             ></div>
             <h6 style={{ margin: "0 1rem" }}>or</h6>
@@ -100,7 +100,7 @@ function Login() {
                 flex: "20", // Termina en el 80% de la página (derecha)
                 height: "1px",
                 background:
-                  "linear-gradient(to left, transparent 20%, #fff 50%, #fff 100%, transparent 80%)", // Gradiente igual en ambos lados
+                  "linear-gradient(to left, transparent 20%, #fff 50%, #fff 100%, transparent 80%)",
               }}
             ></div>
           </div>
@@ -116,7 +116,7 @@ function Login() {
               color: "#0008",
             }}
           >
-            <h6>New here? Register!</h6>
+            <h6 style={{ fontFamily: "iner" }}>New here? Register!</h6>
           </div>
         </div>
       </header>

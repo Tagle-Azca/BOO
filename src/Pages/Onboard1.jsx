@@ -18,7 +18,7 @@ function Onboard1() {
         </div>
         <div
           style={{
-            marginTop: "-37rem",
+            marginTop: "-35rem",
             fontFamily: "iner",
             display: "grid",
             justifyContent: "center",
@@ -26,7 +26,7 @@ function Onboard1() {
           }}
         >
           <h1>The Best Place</h1>
-          <h1>to learn coding</h1>
+          <h1 style={{ marginTop: "-10px" }}>to learn coding</h1>
         </div>
         <div
           style={{
@@ -46,8 +46,8 @@ function Onboard1() {
           <Boton
             text="Next"
             variant="contained"
-            backgroundColor="white"
-            textColor="Black"
+            backgroundColor="#004B6B"
+            textColor="white"
           />
         </div>
       </header>

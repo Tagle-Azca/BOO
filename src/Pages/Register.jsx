@@ -15,12 +15,7 @@ function App() {
           className="Back"
           style={{ marginTop: "1rem", marginLeft: ".5rem" }}
         >
-          <IconButton
-            color="primary"
-            onClick={() => {
-              /* Agrega tu lógica de manejo de clic aquí */
-            }}
-          >
+          <IconButton color="primary" onClick={() => {}}>
             <ArrowBackIcon style={{ fontSize: "3rem", color: "white" }} />
           </IconButton>
         </div>
@@ -38,7 +33,7 @@ function App() {
                 fontSize: "1.5rem",
                 fontFamily: "inter",
                 color: "white",
-                marginTop: "-2rem",
+                marginTop: "-4rem",
               }}
             >
               <h1 className="Title">
@@ -48,7 +43,7 @@ function App() {
                 >
                   <strong>Hello</strong>
                 </p>
-                <p style={{ marginTop: "-2rem" }}>
+                <p style={{ marginTop: "-3rem" }}>
                   <strong>Sign UP!</strong>
                 </p>
               </h1>
@@ -60,7 +55,7 @@ function App() {
                 display: "grid",
                 justifyContent: "center",
                 marginBottom: "1rem",
-                marginTop: "-6rem",
+                marginTop: "-7rem",
               }}
             >
               <TextField id="myTextField" label="Mail" />
@@ -73,7 +68,6 @@ function App() {
                   display: "grid",
                   justifyContent: "center",
                   marginBottom: "1rem",
-                  marginTop: "",
                 }}
               >
                 <Button
@@ -83,9 +77,7 @@ function App() {
                   fontFamily="Arial"
                   color="white"
                   borderRadius="20px"
-                  onClick={() => {
-                    // Aqui va logica de manejo
-                  }}
+                  onClick={() => {}}
                 />
               </div>
             </div>

@@ -38,7 +38,7 @@ export default function Levels() {
             display: "grid",
             justifyContent: "center",
             color: "#fff",
-            marginTop: "4rem",
+            marginTop: "2rem",
           }}
         >
           <h1 style={{ marginLeft: "3.2rem" }}>What is your </h1>
@@ -51,7 +51,7 @@ export default function Levels() {
               display: "grid",
               justifyContent: "center",
               gap: "2rem",
-              marginTop: "2rem",
+              marginTop: "1rem",
             }}
           >
             {buttonData.map((data, index) => (
