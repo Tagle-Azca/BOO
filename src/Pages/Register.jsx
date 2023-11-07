@@ -13,11 +13,9 @@ function App() {
       <header className="App-header">
         <div
           className="Back"
-          style={{ marginTop: "1rem", marginLeft: ".5rem" }}
+          style={{ marginTop: "4rem", marginLeft: ".5rem" }}
         >
-          <IconButton color="primary" onClick={() => {}}>
-            <ArrowBackIcon style={{ fontSize: "3rem", color: "white" }} />
-          </IconButton>
+          <IconButton color="primary" onClick={() => {}}></IconButton>
         </div>
         <div
           className="container"
@@ -39,11 +37,15 @@ function App() {
               <h1 className="Title">
                 <p
                   className="Title"
-                  style={{ display: "grid", justifyContent: "center" }}
+                  style={{
+                    display: "grid",
+                    justifyContent: "center",
+                    color: "black",
+                  }}
                 >
                   <strong>Hello</strong>
                 </p>
-                <p style={{ marginTop: "-3rem" }}>
+                <p style={{ marginTop: "-3rem", color: "black" }}>
                   <strong>Sign UP!</strong>
                 </p>
               </h1>
@@ -85,14 +87,16 @@ function App() {
               className="Check"
               style={{
                 display: "flex",
-                color: "white",
+                color: "black",
                 marginTop: "1rem",
                 justifyContent: "center",
                 marginLeft: "-5rem",
               }}
-            >
+            ></div>
+
+            <div className="Terms" style={{ display: "flex" }}>
               <Checkbox />
-              <p>I accept the policy and terms</p>
+              <p style={{ marginTop: ".6rem" }}>I accept terms an conditions</p>
             </div>
           </ResponsiveContainer>
         </div>

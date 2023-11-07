@@ -50,8 +50,6 @@ function Options() {
             <div style={{ display: "flex", flexDirection: "column" }}>
               <div>
                 <ButtonOptions
-                  text="Texto del Botón"
-                  backgroundColor="white"
                   style={buttonStyle}
                   icon={
                     <img
@@ -62,8 +60,6 @@ function Options() {
                   }
                 ></ButtonOptions>
                 <ButtonOptions
-                  text="Texto del Botón"
-                  backgroundColor="white"
                   style={buttonStyle}
                   icon={
                     <img
@@ -76,8 +72,6 @@ function Options() {
               </div>
               <div style={{ display: "flex" }}>
                 <ButtonOptions
-                  text="Texto del Botón"
-                  backgroundColor="white"
                   style={buttonStyle}
                   icon={
                     <img
@@ -88,10 +82,6 @@ function Options() {
                   }
                 ></ButtonOptions>
                 <ButtonOptions
-                  ButtonOptions="Texto del Botón"
-                  text="Texto del Botón"
-                  backgroundColor="white"
-                  style={buttonStyle}
                   icon={
                     <img
                       src={Mysql}
@@ -101,10 +91,9 @@ function Options() {
                   }
                 ></ButtonOptions>
               </div>
+
               <div style={{ display: "flex" }}>
                 <ButtonOptions
-                  text="Texto del Botón"
-                  backgroundColor="white"
                   style={buttonStyle}
                   icon={
                     <img
@@ -114,9 +103,8 @@ function Options() {
                     />
                   }
                 ></ButtonOptions>
+
                 <ButtonOptions
-                  text="Texto del Botón"
-                  backgroundColor="white"
                   style={buttonStyle}
                   icon={
                     <img

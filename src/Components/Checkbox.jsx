@@ -4,9 +4,9 @@ import Checkbox from "@mui/material/Checkbox";
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
 const checkboxStyle = {
-  color: "white", // Establece el color blanco para el checkbox
+  color: "black", // Establece el color blanco para el checkbox
   "&.Mui-checked": {
-    color: "white", // Establece el color blanco cuando está marcado
+    color: "Black", // Establece el color blanco cuando está marcado
   },
 };
 
